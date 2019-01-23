@@ -1,0 +1,14 @@
+/Users/milby/projects/GitHub/DocEditorPlus/DocEditorPlus_Scripts/stack_DocEditorPlus_card_id_1002.livecodescript
+card id 1002 of stack "DocEditorPlus"
+
+@@ -211,7 +211,7 @@
+          enable field ("lbl" & tItem)
+       end repeat
+       if fileIsLCB() then
+-         put "Package,Uninstall,Install,Test" into tButtonList --,StopTesting
++         put "Package,Uninstall,Install,Test,StopTesting" into tButtonList
+          repeat for each item tItem in tButtonList
+             set the visible of widget ("btn" & tItem) to true
+             set the visible of field ("lbl" & tItem) to true
+
+

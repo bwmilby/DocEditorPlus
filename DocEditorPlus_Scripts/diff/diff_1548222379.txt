@@ -1,0 +1,14 @@
+/Users/milby/projects/GitHub/DocEditorPlus/DocEditorPlus_Scripts/stack_DocEditorPlus_.livecodescript
+stack "DocEditorPlus"
+
+@@ -63,7 +63,7 @@
+             revIDEDeveloperExtensionInstall loadedExtensionPath()
+             break
+          case "StopTesting"
+-            -- not in released version yet
++            revIDEDeveloperExtensionStopTesting
+             break
+          case "Test"
+             revIDEDeveloperExtensionTest loadedExtensionPath()
+
+
